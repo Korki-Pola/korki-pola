@@ -19,14 +19,14 @@ class Lifo:
     def _print(self) -> str:
         walker: Node = self._head
 
-        return_str = '{'
+        return_str = '['
         while walker != None:
             return_str += f'{walker}'
             if walker.getNext() != None:
                 return_str += ', '
 
             walker = walker.getNext()
-        return_str += '}'
+        return_str += ']'
 
         return return_str
 

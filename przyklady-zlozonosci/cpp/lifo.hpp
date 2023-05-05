@@ -34,7 +34,7 @@ class Lifo {
 ostream &operator<<(ostream &os, const Lifo &lifo) {
   Node *walker = lifo.head;
 
-  os << "{";
+  os << "[";
   while (walker != nullptr) {
     os << *walker;
     if (walker->getNextPtr() != nullptr) {
@@ -42,7 +42,7 @@ ostream &operator<<(ostream &os, const Lifo &lifo) {
     }
     walker = walker->getNextPtr();
   }
-  os << "}";
+  os << "]";
 
   return os;
 }
