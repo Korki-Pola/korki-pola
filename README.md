@@ -1,5 +1,14 @@
 # Ogolne notatki
 
+## Informacje a propos matury
+
+Matura z informatyki sklada sie z tylko czesci teoretycznej, czesc wiekszosc zadan nalezy zapisac na arkuszu, czesc w odpowiednim miejscu na komputerze egzaminacyjnym.
+
+| Typy zadan                                                                    | Punktowanie           | Udział % punktacji w calym arkuszu |
+| ----------------------------------------------------------------------------- | --------------------- | ---------------------------------- |
+| zamkniete                                                                     | `1` lub `2` punkty    | ok. `10%`                          |
+| otwarte - w tym pare praktycznych wymagajacych uzycia komputera (algorytmika) | od `3` do `5` punktow | ok. `90%`                          |
+
 ## Korzystanie z git'a
 
 - Wprowadzanie zmian:
