@@ -105,3 +105,41 @@ Złożoność pamięciowa odnosi się do ilości pamięci komputerowej, którą 
 Klasa złożoności obliczeniowej to teoretyczne określenie maksymalnej ilości zasobów obliczeniowych (czasu i pamięci) potrzebnych do rozwiązania danego problemu przy rozmiarze danych wejściowych zbliżonym do nieskończoności. Klasa złożoności obliczeniowej opisuje, jak złożony jest dany problem i jest używana do porównywania algorytmów pod kątem ich efektywności.
 
 Przykłady klas złożoności obliczeniowej to np. O(1) (stała złożoność), O(log n) (logarytmiczna złożoność), O(n) (liniowa złożoność), O(n^2) (kwadratowa złożoność) itd. Klasa złożoności obliczeniowej może być określana zarówno dla złożoności czasowej, jak i pamięciowej. Jest to ważne narzędzie w analizie algorytmów i projektowaniu efektywnych rozwiązań obliczeniowych.
+
+### 1.2.9. Algebra Boole'a
+
+#### Alternatywa (**ang.** `or`, **pol.** `lub`, **znak:** $\lor$)
+
+| A   | B   | A $\lor$ B |
+| --- | --- | ---------- |
+| 0   | 0   | 0          |
+| 0   | 1   | 1          |
+| 1   | 0   | 1          |
+| 1   | 1   | 1          |
+
+#### Koniunkcja (**ang.** `and`, **pol.** `i` **znak:** $\land$)
+
+| A   | B   | A $\land$ B |
+| --- | --- | ----------- |
+| 0   | 0   | 0           |
+| 0   | 1   | 0           |
+| 1   | 0   | 0           |
+| 1   | 1   | 1           |
+
+#### Implikacja (**ang.** `if/implies`, **pol.** `jeżeli/implikuje`, znak: $\implies$)
+
+| A   | B   | A $\implies$ B |
+| --- | --- | -------------- |
+| 0   | 0   | 1              |
+| 0   | 1   | 1              |
+| 1   | 0   | 0              |
+| 1   | 1   | 1              |
+
+#### Równoważność (ang. `equals`, pol. `równe`, znak: $\Leftrightarrow$)
+
+| A   | B   | A $\Leftrightarrow$ B |
+| --- | --- | --------------------- |
+| 0   | 0   | 1                     |
+| 0   | 1   | 0                     |
+| 1   | 0   | 0                     |
+| 1   | 1   | 1                     |
