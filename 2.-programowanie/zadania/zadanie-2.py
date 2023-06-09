@@ -1,23 +1,31 @@
-x = input('Podaj mi swoje pierwsze imie: ')
-y = input("Podaj mi swoje nazwisko: ")
-z = input("Podaj mi swoje drugie imie: ")
-s = ' '
-n = '|'
-text = f'{n}{s}{x}{s}{n}'
-text_2 = f'{n}{s}{y}{s}{n}'
-text_3 = f'{n}{s}{z}{s}{n}'
+imie = input("Podaj swoje imie: ")
+nazwisko = input("Podaj swoje nazwisko: ")
+drugie_imie = input("Podaj swoje drugie imie: ")
 
-imie = "IMIE"
-nazwisko = "NAZWISKO"
-drugie_imie = "DRUGIE_IMIE"
+kolumna_1_str = 'IMIE'
+kolumna_2_str = 'NAZWISKO'
+kolumna_3_str = 'DRUGIE IMIE'
 
-szerokosc_imie = 12
-szerokosc_nazwisko = 14
-szerokosc_d_imie = 3
+len_imie = len(imie)
+len_nazwisko = len(nazwisko)
+len_drugie_imie = len(drugie_imie)
 
-print('-' * 33)
-print(f'|{imie:^{szerokosc_imie}}|{nazwisko:^{szerokosc_nazwisko}}|{drugie_imie:^{szerokosc_d_imie}}|')
-print(f'|{text:^{szerokosc_imie}}|')
-print(f'|{text:^{szerokosc_nazwisko}}|')
-print(f'|{text:^{szerokosc_d_imie}}|')
-print('-' * 33)
+len_k_1_str = len(kolumna_1_str)
+len_k_2_str = len(kolumna_2_str)
+len_k_3_str = len(kolumna_3_str)
+
+max_len_k_1 = max(len_imie, len_k_1_str)
+max_len_k_2 = max(len_nazwisko, len_k_2_str)
+max_len_k_3 = max(len_drugie_imie, len_k_3_str)
+
+len_k_1 = max_len_k_1 + 2
+len_k_2 = max_len_k_2 + 2
+len_k_3 = max_len_k_3 + 2
+
+len_minuses = len_k_1 + len_k_2 + len_k_3 + 4
+
+print('-' * len_minuses)
+print(f'|{kolumna_1_str:^{len_k_1}}|{kolumna_2_str:^{len_k_2}}|{kolumna_3_str:^{len_k_3}}|')
+print('-' * len_minuses)
+print(f'|{imie:^{len_k_1}}|{nazwisko:^{len_k_2}}|{drugie_imie:^{len_k_3}}|')
+print('-' * len_minuses)
