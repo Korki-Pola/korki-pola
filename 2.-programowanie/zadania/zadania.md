@@ -29,8 +29,6 @@
 
 ## 2. python-keywords
 
-Oto 10 różnych zadań, które obejmują różne konstrukcje w Pythonie, takie jak listy, zakresy, instrukcje for, if, elif, else, wprowadzanie danych, drukowanie i odwracanie.
-
 1. **Lista i range**:
 
    Napisz program, który tworzy listę zawierającą kwadraty liczb od 1 do 10.
@@ -69,4 +67,9 @@ Oto 10 różnych zadań, które obejmują różne konstrukcje w Pythonie, takie 
 
 10. **For, range, if, else, input, print, reversed**
     
-    Napisz program, który prosi użytkownika o wpisanie liczby, a następnie drukuje piramidę z gwiazdek o takiej wysokości. (Na przykład, dla liczby 3, piramida wyglądałaby tak: "  *", " ***", "*****".)
+    Napisz program, który prosi użytkownika o wpisanie liczby, a następnie drukuje piramidę z gwiazdek o takiej wysokości. Na przykład, dla liczby 3, piramida wyglądałaby tak: 
+    ```txt
+      *
+     ***
+    *****
+    ```
