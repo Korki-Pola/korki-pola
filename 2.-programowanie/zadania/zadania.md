@@ -1,6 +1,6 @@
 # Zadania
 
-## 1. print-input
+## 1.-2. print-input
 
 1. Pobierz od uzytkownika imienia i wyswietl je
 2. Pobierz od uzytkownika 3 wartosci - imie nazwisko drugie imie - i stworz tabelke gdzie kazda wartosc zostanie wycentrowana (wysrodkowana) w swojej kolumnie - przyklad tabelki:
@@ -27,7 +27,7 @@
 7. Napisz program, który prosi użytkownika o wprowadzenie trzech liczb zmiennoprzecinkowych, a następnie drukuje największą z nich.
 8. Napisz program, który prosi użytkownika o wprowadzenie liczby całkowitej i liczby zmiennoprzecinkowej, a następnie drukuje ich sumę.
 
-## 2. python-keywords
+## 3. python-keywords
 
 1. **Lista i range**:
 

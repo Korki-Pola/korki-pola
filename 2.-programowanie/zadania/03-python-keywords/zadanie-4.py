@@ -1,2 +1,2 @@
 zmienna = input('Podaj swoje imię: ')
-print(f'Hello {zmienna}!' )
+print(f'Hello {zmienna}!')

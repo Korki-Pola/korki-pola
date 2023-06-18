@@ -1,10 +1,8 @@
-zmienna = int(input(' Wpisz liczbę: '))
-warunek1 = zmienna
-warunek2 = zmienna
+value = int(input(' Wpisz liczbę: '))
 
-if warunek1 >0:
-    print(f'Dodatnia')
-elif warunek2 <0:
-    print(f' Ujemna')
+if value > 0:
+    print('Dodatnia')
+elif value < 0:
+    print('Ujemna')
 else:
-    print(f' zero')
+    print('Zero')
