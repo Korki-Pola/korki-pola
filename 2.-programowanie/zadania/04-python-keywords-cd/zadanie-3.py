@@ -45,7 +45,7 @@ except ValueError as ValueErrorMessage:
  #   val_1 = int(input("Podaj wartosc calkowita: "))
 #except ValueError as valueErrorMessage:
  #   num_3 = 0
-  #  print("Nie umiesz czytać? Podaj wartość calkowita!")
+  #  print("Podaj wartość calkowita!")
 
 print(f'Iloczyn to: {iloczyn}.')
 #elif warunek2:
