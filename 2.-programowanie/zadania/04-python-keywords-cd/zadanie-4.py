@@ -1,6 +1,5 @@
-with open('textfile.txt') as f:
+with open('textfile.txt', 'r') as file:
+    lines = file.readlines()
 
-    for _ in _ :
-        print('https://www.lipsum.com/feed/html')
-
-        #WIP
+    for line in lines:
+        print(line.strip())
