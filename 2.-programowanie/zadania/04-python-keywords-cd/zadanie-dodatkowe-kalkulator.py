@@ -7,11 +7,16 @@ while dane_niepoprawne:
     try:
         val_1 = float(input('Wpisz pierwszą dowolną liczbę: '))
         val_2 = float(input('Wpisz drugą dowolną liczbę: '))
-        result = input('Podaj operator jakiego chcesz użyć, do wyboru masz - suma, roznica, iloraz, iloczyn: ')
+        operator = input('Podaj operator jakiego chcesz użyć, do wyboru masz - suma, roznica, iloraz, iloczyn: ')
+
+        if operator not in ['suma', 'roznica', 'iloraz', 'iloczyn']:
+            raise KeyError
 
         dane_niepoprawne = False
     except ValueError:
         print("Podales bledna wartosc - nalezy podac liczbe!")
+    except KeyError:
+        print("Podales bledny operator")
 
 suma = val_1 + val_2
 roznica = val_1 - val_2
@@ -23,17 +28,17 @@ try:
 except ZeroDivisionError:
     iloraz = 'Proba dzielenia przez zero. Nie mozna dzielic przez zero!'
 
-if result == 'suma':
+if operator == 'suma':
     print(f'Suma to: {suma}.')
 
-elif result == 'roznica':
+elif operator == 'roznica':
     print(f'Różnica to: {roznica}.')
 
-elif result == 'iloraz':
+elif operator == 'iloraz':
     print(f'Iloraz to: {iloraz}.')
 
 else:
     print(f'Iloczyn to: {iloczyn}.')
 
-print('Do zobaczenia później :) ')
+print('Do zobaczenia później :)')
 
