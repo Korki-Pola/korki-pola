@@ -16,7 +16,7 @@ def main():
     # print(random_word)
 
     while not player_won and not player_lost:
-        letter = get_letter()
+        letter = get_letter_from_user()
         is_letter_correct = check_if_letter_correct(letter, random_word_chars)
 
         if is_letter_correct:
@@ -95,7 +95,7 @@ def check_if_letter_correct(letter: str, random_word_chars: list[str]) -> bool:
         return False
 
 
-def get_letter() -> str:
+def get_letter_from_user() -> str:
     letter = ''
     is_input_incorrect = True
 
