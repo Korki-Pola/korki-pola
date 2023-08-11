@@ -12,6 +12,7 @@ def fibonacci(start, koniec):
 def fibonacci():
     flag = True
     while flag:
+        pass
 
 
 fibonacci(start, koniec)
