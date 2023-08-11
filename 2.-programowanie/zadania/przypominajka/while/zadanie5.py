@@ -7,3 +7,11 @@ while licznik < koncowa_liczba:
     nowy_licznik = licznik + 1
     print(licznik)
     licznik = nowy_licznik
+suma = 0
+liczba = 1
+
+while liczba <= 20:
+    suma += liczba
+    liczba += 1
+
+print("Suma liczb od 1 do 20 wynosi: "f'{suma}')
