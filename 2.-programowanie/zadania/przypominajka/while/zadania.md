@@ -12,7 +12,7 @@ Oto 20 ćwiczeń z pętli `while` dla początkujących w języku Python:
 
 6. **Suma Liczb**: Używając pętli `while`, poproś użytkownika o wprowadzenie liczb i sumuj je, aż użytkownik wpisze 'stop'.
 
-7. **Zgadnij Liczbę**: Pomyśl o liczbie między 1 a 100 i pozwól użytkownikowi ją odgadnąć. Poinformuj użytkownika, czy jego odpowiedź jest za wysoka, za niska lub poprawna.
+7. **Zgadnij Liczbę**: Pomyśl o liczbie mię[zadania.md](zadania.md)dzy 1 a 100 i pozwól użytkownikowi ją odgadnąć. Poinformuj użytkownika, czy jego odpowiedź jest za wysoka, za niska lub poprawna.
 
 8. **Hasło**: Nieustannie pytaj użytkownika o hasło, dopóki nie poda poprawnego.
 
