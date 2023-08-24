@@ -8,5 +8,5 @@ while liczba != 1:
     if liczba % 2 == 0:
         liczba = liczba // 2
     else:
-        liczba = (liczba * 3) + 1
+        liczba = liczba * 3 + 1
 print(liczba)

@@ -32,7 +32,7 @@ Oto 20 ćwiczeń z pętli `while` dla początkujących w języku Python:
 
 16. **FizzBuzz**: Licz od 1 do 100, ale dla wielokrotności 3, zamiast liczby, wydrukuj "Fizz", dla wielokrotności 5 wydrukuj "Buzz", a dla liczb, które są wielokrotnościami zarówno trzech, jak i pięciu, wydrukuj "FizzBuzz".
 
-17. **Znajdź Liczby Pierwsze**: Wydrukuj wszystkie liczby pierwsze między 2 a liczbą `n` podaną przez użytkownika.
+17. **Znajdź Liczby Pierwsze**: Wydrukuj wszystkie liczby pierwsze między 2 a liczbą `n` podaną przez użytkownika. (Ladniejsze rozwiazanie korzysta z listy w ktorej sa przechowywywane wszystkie dotad odkryte liczby pierwsze)
 
 18. **Sekwencja Fibonacciego**: Wydrukuj pierwsze `n` liczb w sekwencji Fibonacciego, gdzie `n` jest podane przez użytkownika.
 
@@ -41,5 +41,3 @@ Oto 20 ćwiczeń z pętli `while` dla początkujących w języku Python:
 20. **Tylko Dodatnie Liczby**: Ciągle akceptuj liczby od użytkownika, aż wprowadzi liczbę ujemną. Następnie wydrukuj średnią ze wszystkich wprowadzonych liczb dodatnich.
 
 21. **Konwerter Temperatur**: Nieustannie pytaj użytkownika o wprowadzenie temperatury w Fahrenheitach i przelicz je na Celsjusza, aż użytkownik zdecyduje się przestać.
-
-Pamiętaj, każde z tych ćwiczeń powinno być zrealizowane z użyciem pętli `while`. Są one świetnym treningiem dla zrozumienia kontroli i przepływu w pętlach w Pythonie. Powodzenia w kodowaniu!

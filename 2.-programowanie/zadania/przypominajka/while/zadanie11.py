@@ -4,6 +4,9 @@ liczba = 12345
 suma = 0
 
 while liczba > 0:
+    # liczba xyz % 10 = z
+    # liczba xyz // 10 = xy
+
     cyferka =liczba % 10
     liczba = liczba // 10
     suma = suma + cyferka
