@@ -1,4 +1,4 @@
-#20. **Tylko Dodatnie Liczby**: Ciągle akceptuj liczby od użytkownika,
+# 20. **Tylko Dodatnie Liczby**: Ciągle akceptuj liczby od użytkownika,
 # aż wprowadzi liczbę ujemną. Następnie wydrukuj średnią ze wszystkich wprowadzonych liczb dodatnich.
 
 liczby_dodatnie = []
