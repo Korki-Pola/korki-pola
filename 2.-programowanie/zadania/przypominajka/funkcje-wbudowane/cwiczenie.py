@@ -16,7 +16,7 @@ wypisz_cycki()
 
 # TODO: Praca domowa:
 # W pliku './cwiczenia.py' pobaw sie funkcjami reduce, map, filter (reduce, map i filter dzialaja na listach)
-# oraz split i join (split i join dzialaja na stringach). lorem ipsum
+# oraz split i join (split i join dzialaja na stringach). Uzyj sobie Lorem Ipsum generator
 # Pamietaj o zaimportowaniu funkcji reduce.
 # Pobaw sie rowniez funkcja open (wraz ze slowami with i as).
 
