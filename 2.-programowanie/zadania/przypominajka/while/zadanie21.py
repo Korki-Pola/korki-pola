@@ -21,7 +21,7 @@
 while True:
     try:
         fahr = float(input("Podaj temperature w Fahrenheitach (lub napisz litere aby zakonczyc): "))
-        celcius = (fahr - 32) // 1.8000
+        celcius = (fahr - 32) / 1.8000
         print(f'{fahr} stopni Fahr. to {celcius} stopni Celsjusza.')
     except ValueError:
     #if fahr == 'b':

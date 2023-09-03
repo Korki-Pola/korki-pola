@@ -1,0 +1,15 @@
+Output dla linijki [0]: Monika
+Hello, Monika!
+
+Output dla linijki [1]: Pola
+Hello, Pola!
+
+Output dla linijki [2]: Iga
+Hello, Iga!
+
+Output dla linijki [3]: Robert
+Hello, Robert!
+
+Output dla linijki [4]: Aleksander
+Hello, Aleksander!
+

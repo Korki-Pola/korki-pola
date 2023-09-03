@@ -2,7 +2,7 @@
 
 #**Cel:** Odczytaj plik tekstowy i wydrukuj jego zawartość.
 
-with open('nazwa_pliku.txt', 'r') as plik:
+with open('./zadanie5-input.txt', 'r') as plik:
     zawartosc = plik.read()
     print(zawartosc)
 
