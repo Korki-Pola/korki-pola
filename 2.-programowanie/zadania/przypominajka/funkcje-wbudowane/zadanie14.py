@@ -4,5 +4,9 @@
 
 text = "Ten przykladowy tekst ma 7 slow."
 
-new_text = "-".join(text.split())
+# UWAGA
+# split() w formie bez argumentow dzieli tekst po wszystki white-characters czyli enter, spacja, tabulatura
+# w tym zadaniu trzeba szukac kazdej spacji osobno wiec musimy uzyc split(" ")
+
+new_text = "-".join(text.split(" "))
 print(new_text)
