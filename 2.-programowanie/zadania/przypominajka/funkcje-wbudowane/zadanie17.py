@@ -16,8 +16,14 @@ numbers = [3, 7, 9, 12, 15]
 # results = list(map(lambda x: (x, divmod(x, 2)[0], divmod(x, 2)[1]), numbers))
 
 # zgrabniejsze od tego na gorze
-results = list(map(mapuj_divmod, numbers))
+with open("./zadanie17_output.txt", "w") as output_file:
+    with open("./zadanie17_input.txt", "r") as input_file:
+        for linijka in input_file.readlines():
+            lista_numerow_str = linijka.strip('[]\n').split(', ')
+            lista_numerow = list(map(lambda x: int(x), lista_numerow_str))
 
-for result in results:
-    (number, iloraz, reszta) = result
-    print(f'Iloraz i reszta z dzielenia liczby {number} przez 2 to: {iloraz}, {reszta}')
+            results = list(map(mapuj_divmod, numbers))
+
+            for result in results:
+                (number, iloraz, reszta) = result
+                print(f'Iloraz i reszta z dzielenia liczby {number} przez 2 to: {iloraz}, {reszta}', file=output_file)
