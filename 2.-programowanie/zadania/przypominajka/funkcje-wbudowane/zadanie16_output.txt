@@ -1,10 +1,1 @@
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
-Suma tych liczb wynosi: 12
+Suma tych liczb wynosi: -148

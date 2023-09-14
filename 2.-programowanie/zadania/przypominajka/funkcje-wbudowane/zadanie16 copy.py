@@ -5,9 +5,9 @@
 with open("./zadanie16_output.txt", "w") as output_file:
     with open("./zadanie16_input.txt", "r") as input_file:
         for linijka in input_file.readlines():
-            # parsowanie danych wejsciowych
-            liczby_str = linijka.strip('\n').split(', ')
-            liczby = list(map(lambda x: int(x), liczby_str))
+            # dokoncz parsowanie danych wejsciowych
+            # zrob cos z wartoscia 'linijka' zeby otrzymac poprawna wartosc 'liczby'
+            liczby = 
 
             # wykonanie algorytmu
             suma = sum(liczby)

@@ -16,5 +16,4 @@ with open("./zadanie13_output.txt", "w") as output_file:
             # wykonanie algorytmu na przetworzonych (sparsowanych) danych
             lista_parzystych_num = list(filter(lambda x: x % 2 == 0, lista_numerow))
             lista_kwadratow = list(map(lambda x: x ** 2, lista_parzystych_num))
-
             print(lista_kwadratow, file=output_file)
