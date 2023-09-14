@@ -1,0 +1,10 @@
+# .gitignore
+
+# Ignore __pycache__ directories anywhere in the project
+**/__pycache__/
+
+# Ignore .vscode directories anywhere in the project
+**/.vscode/
+
+# Ignore .idea directories anywhere in the project
+**/.idea/
