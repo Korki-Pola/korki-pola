@@ -6,7 +6,9 @@ with open("./zadanie14_output.txt", "w") as output_file:
     with open("./zadanie14_input.txt", "r") as input_file:
         for linijka in input_file.readlines():
             # dokoncz parsowanie danych wejsciowych
+            linijka = linijka.strip('\n')
             # zrob cos z wartoscia 'linijka' zeby otrzymac poprawna wartosc 'text'
+
             text = 
 
             # UWAGA

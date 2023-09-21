@@ -7,7 +7,8 @@ with open("./zadanie15_output.txt", "w") as output_file:
         for linijka in input_file.readlines():
             # dokoncz parsowanie danych wejsciowych 
             # zrob cos z wartoscia 'linijka' zeby otrzymac poprawna wartosc 'lista_numerow'
-            lista_numerow = 
+            lista_numerow_str = linijka.strip('[]\n').split(', ')
+            lista_numerow = list(map(lambda x: int(x), lista_numerow_str))
 
             # wykonanie algorytmu
             sum_of_squares = sum(map(lambda x: x ** 2, lista_numerow))
