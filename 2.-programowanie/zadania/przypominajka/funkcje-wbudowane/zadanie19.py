@@ -1,6 +1,7 @@
 ## Zadanie 19: Kombinacja `filter` i `open`
 
-#**Cel:** Odczytaj plik i wyświetl tylko linie zawierające słowo "Python".
+#**Cel:** Odczytaj plik i wyświetl tylko linie zawierające słowo "Python"
+# (niewazne jakiej wielkosci sa literki).
 
 #with open("./zadanie19_output.txt", "w") as output_file:
  #   with open("./zadanie19_input.txt", "r") as input_file:
@@ -11,5 +12,7 @@
 with open("./zadanie19_output.txt", "w") as output_file:
     with open("./zadanie19_input.txt", "r") as input_file:
         for linijka in input_file.readlines():
-            linie_wybrane = filter(lambda linijka: "Python" in linijka, input_file)
-            print(linijka)
+            czy_wypisac_linijke = "python" in linijka.lower()
+
+            if czy_wypisac_linijke:
+                print(linijka.strip('\n'), file=output_file)

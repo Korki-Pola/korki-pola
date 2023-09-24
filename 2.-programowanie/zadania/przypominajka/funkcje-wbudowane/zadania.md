@@ -148,6 +148,8 @@ Aleksander
 
 ---
 
+# PRACA DOMOWA
+
 ## Zadanie 24: Kombinacja funkcji `open`, `read`/`readlines` i `sum`
 
 **Cel:** Odczytaj plik zawierający liczby oddzielone przecinkami i oblicz ich sumę.
@@ -178,12 +180,6 @@ Aleksander
 
 ---
 
-## Zadanie 29: Użycie `input`, `float` i `divmod`
-
-**Cel:** Pobierz od użytkownika/Pobierz z pliku dwie liczby zmiennoprzecinkowe i znajdź ich iloraz oraz resztę z dzielenia.
-
----
-
-## Zadanie 30: Kombinacja `open`, `read`/`readlines`, `split`, `map`, `filter`, i `reduce`
+## Zadanie 29: Kombinacja `open`, `read`/`readlines`, `split`, `map`, `filter`, i `reduce`
 
 **Cel:** Odczytaj plik zawierający liczby oddzielone przecinkami, wybierz liczby parzyste, podnieś je do kwadratu i oblicz ich sumę.
