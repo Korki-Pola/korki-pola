@@ -6,6 +6,7 @@ with open("./zadanie14_output.txt", "w") as output_file:
     with open("./zadanie14_input.txt", "r") as input_file:
         for linijka in input_file.readlines():
             linijka = linijka.strip('\n')
+git status
 
             # UWAGA
             # split() w formie bez argumentow dzieli tekst po wszystki white-characters czyli enter, spacja, tabulatura
