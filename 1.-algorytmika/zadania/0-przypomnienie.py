@@ -110,10 +110,3 @@ wynik_dodawania_1 = suma(3, 10)
 wynik_dodawania_2 = suma(3, 4)
 wynik_dodawania_3 = suma(123123, 123)
 wynik_dodawania_4 = suma(3, 5)
-
-
-
-
-
-
-
