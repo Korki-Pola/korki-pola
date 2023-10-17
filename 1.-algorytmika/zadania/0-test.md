@@ -81,7 +81,7 @@ b) `define`
 c) `def`  
 d) `func`
 
-**11. Jaki będzie wynik funkcji `suma(5, 3)`?**  
+**11. Jaki będzie wynik funkcji `sum(5, 3)`?**  
 a) `8`  
 b) `15`  
 c) `2`  
@@ -112,10 +112,10 @@ c) `NaN`
 d) `None`
 
 **16. Które z poniższych jest właściwym sposobem definiowania funkcji, która przyjmuje dwa argumenty i zwraca ich sumę?**  
-a) `def function(a, b): return a + b`  
-b) `function(a, b) -> a + b`  
-c) `def function(a: int, b: int) -> int: return a + b`  
-d) `function(a, b): return a + b`
+a) `def suma(a, b): return a + b`  
+b) `suma(a, b) -> a + b`  
+c) `def suma(a: int, b: int) -> int: return a + b`  
+d) `suma(a, b): return a + b`
 
 **17. Co zostanie wydrukowane przez poniższy kod?**
 
