@@ -21,7 +21,7 @@ def sprawdz_czy_pierwsza_optymalna(liczba: int) -> bool:
         return False
 
     pierwiastek = liczba ** (1 / 2)
-    for x in range(2, round(pierwiastek)):
+    for x in range(2, round(pierwiastek) + 1):
         if liczba % x == 0:
             return False
     return True
@@ -36,7 +36,7 @@ def sprawdz_czy_pierwsza_optymalna_z_cache(liczba: int) -> bool:
             return False
 
         pierwiastek = liczba ** (1 / 2)
-        for x in range(2, round(pierwiastek)):
+        for x in range(2, round(pierwiastek) + 1):
             if liczba % x == 0:
                 cache[liczba] = False
                 return False
