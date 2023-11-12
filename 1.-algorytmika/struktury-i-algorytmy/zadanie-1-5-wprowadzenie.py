@@ -40,12 +40,29 @@ def rekurencja_2(ciag: str, n: int, orginalny_ciag='') -> str:
 
 # stworz funkcje ktora bedzie dodawala dana liczbe a do siebie n razy
 def iteracja_3(a: int, n: int) -> int:
-    pass
+    return a + a * (n - 1)
+
+liczba_a = int(input("Podaj liczbe a: "))
+liczba_n = int(input("Podaj liczbe n: "))
+wynik = iteracja_3(liczba_a, liczba_n)
+
+print(wynik)
 
 
 # jezeli potrzebujesz dopisac jakies wartosci pomocnicze to je dopisz
 def rekurencja_3(a: int, n: int) -> int:
-    pass
+    if n == 0:
+        return 0
+    elif n == 1:
+        return a
+    else:
+        return a + rekurencja_3(a, n - 1)
+
+liczba_a = int(input("Podaj liczbe a: "))
+liczba_n = int(input("Podaj liczbe n: "))
+wynik = rekurencja_3(liczba_a, liczba_n)
+
+print(wynik)
 
 
 print(iteracja_3(3, 10))    # wypisuje 30
