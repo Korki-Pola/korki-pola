@@ -40,13 +40,10 @@ def rekurencja_2(ciag: str, n: int, orginalny_ciag='') -> str:
 
 # stworz funkcje ktora bedzie dodawala dana liczbe a do siebie n razy
 def iteracja_3(a: int, n: int) -> int:
-    return a + a * (n - 1)
-
-liczba_a = int(input("Podaj liczbe a: "))
-liczba_n = int(input("Podaj liczbe n: "))
-wynik = iteracja_3(liczba_a, liczba_n)
-
-print(wynik)
+    result = 0
+    for _ in range(n):
+        result += a
+    return result
 
 
 # jezeli potrzebujesz dopisac jakies wartosci pomocnicze to je dopisz
@@ -58,20 +55,15 @@ def rekurencja_3(a: int, n: int) -> int:
     else:
         return a + rekurencja_3(a, n - 1)
 
-liczba_a = int(input("Podaj liczbe a: "))
-liczba_n = int(input("Podaj liczbe n: "))
-wynik = rekurencja_3(liczba_a, liczba_n)
-
-print(wynik)
-
+# ITERACJA - to wykonywanie czegos w petli
+# REKURENCJA - to wywolywanie funkcji przez sama siebie
 
 print(iteracja_3(3, 10))    # wypisuje 30
 print(rekurencja_3(3, 10))  # wypisuje 30
 print(iteracja_3(0, 10))    # wypisuje 0
 print(rekurencja_3(0, 10))  # wypisuje 0
 print(iteracja_3(-1, 10))   # wypisuje -10
-print(rekurencja_3(-1, 10)) # wypisuje -10
-
+print(rekurencja_3(-1, 10))  # wypisuje -10
 
 
 # moj_ciag = 'DuPa'

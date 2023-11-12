@@ -1,67 +1,28 @@
-#napisac funkcje liczaca czynnki pierwsze liczby
+# ZADANI DOMOWE
+# Napisac funkcje zwracajaca czynniki pierwsze danej liczby N
 
-#def oblicz_czynniki_pierwsze(N: int) -> list:
-    #czynniki = []
-   # liczby_pierwsze = []
+# 1. dostajemy liczbe N ktorej czynniki mamy znalezc
+#
+# 2. budujemy liste liczb pierwszych od 2 do sqrt(N)
+# (wlacznie) (np. N = 16 to lista -> [2, 3], N = 1024 lista -> [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31])
+#
+# 3. przedchodzimy przez liste liczb pierwszych i jezeli dana liczba P
+# (liczba z listy liczb pierwszych) dzieli N to zapisujemy ja jaka czynnik pierwszy,
+# zapisujemy N = N // P i dzielimy N przez P jeszcze raz
+# (i tak w kolko poki spelnione) - jezeli nie dzieli to przechodzimy do nastepnej liczby P
+# Warunek konca: n == 1
 
-    #for liczba in range(2, int(N ** 0.5) + 1):
-        #jest_pierwsza = True
-        #for p in liczby_pierwsze:
-         #   if liczba % p == 0:
-        #        jest_pierwsza = False
-       #         break
-      #  if jest_pierwsza:
-     #       liczby_pierwsze.append(liczba)
-
-    #for p in liczby_pierwsze:
-    #    while N % p == 0:
-   #         czynniki.append(p)
-  #          N = N // p
- #   if N > 1:
-#        czynniki.append(N)
-
-#N = int(input("Podaj liczbe N: "))
-#czynniki = oblicz_czynniki_pierwsze(N)
-#print(f'Czynniki pierwsze liczby {N} to: {czynniki}')
-
-#return czynniki
+import math
 
 
-def oblicz_czynniki_pierwsze(N):
-    czynniki = []
-    for liczba in range(2, int(N ** 0.5) + 1):
-       while N % liczba == 0:
-           czynniki.append(liczba)
-           N//= liczba
-    if N >1:
-        czynniki.append(N)
-    return czynniki
+def is_prime(possible_prime: int) -> bool:
+    pass
 
-liczba = int(input("Podaj liczbe: "))
-czynniki_pierwsze = oblicz_czynniki_pierwsze(liczba)
-print(f'Czynniki pierwsze liczby {liczba} to: {czynniki_pierwsze}')
+# uzywa is_prime
+def get_primes(upper_bound: int) -> list[int]:
+    pass
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def get_prime_factors(n: int) -> list[int]:
+    primes = get_primes(math.ceil(n ** 1/2))
+    pass
