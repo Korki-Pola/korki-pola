@@ -13,9 +13,16 @@ def nwd_iter(a: int, b: int) -> int:
 
     return b
 
+wynik = nwd_iter(24, 18)
+print(wynik)
+
+
 
 def nwd_rek(a: int, b: int) -> int:
     if b == 0:
         return a
     else:
         return nwd_rek(b, a % b)
+
+wynik = nwd_rek(24, 18)
+print(wynik)
