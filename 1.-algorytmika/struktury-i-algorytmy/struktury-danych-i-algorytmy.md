@@ -6,7 +6,7 @@
    5. iteracyjna i rekurencyjna realizacja algorytmu Euklidesa,
    6. iteracyjne i rekurencyjne obliczanie wartości liczb Fibonacciego,
    7. wydawanie reszty metodą zachłanną
-2. **algorytmy wyszukiwania i porządkowania (sortowania),np.:**
+2. **algorytmy wyszukiwania i porządkowania (sortowania), np.:**
    1. jednoczesne znajdowanie największego i najmniejszego elementu w zbiorze: algorytm naiwny i optymalny,
    2. algorytmy sortowania ciągu liczb: bąbelkowy, przez wybór, przez wstawianie liniowe lub binarne, przez scalanie, szybki, kubełkowy,
    3. algorytmy numeryczne,np.:
