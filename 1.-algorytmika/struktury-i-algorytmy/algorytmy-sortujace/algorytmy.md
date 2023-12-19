@@ -161,10 +161,7 @@ def insertion_sort(arr: List[int]) -> List[int]:
 ## Details:
 
 - **Best Case**: O(n)
-- **Average Case**:
-
-O(n^2)
-
+- **Average Case**: O(n^2)
 - **Worst Case**: O(n^2)
 - **Memory**: O(1)
 - **Stable**: Yes
