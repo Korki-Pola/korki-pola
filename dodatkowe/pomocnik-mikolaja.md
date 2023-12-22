@@ -47,7 +47,7 @@ Sophia Johnson 1
 Wynik (suma ilosci liter w nazwiskach dzieci ktore sa najdalej):
 
 ```
-14
+15
 ```
 
 Twoja misja jest kluczowa! Dzięki Twoim umiejętnościom, radość i uśmiechy rozświetlą twarze dzieci na całym świecie. Czy jesteś gotowa, aby pomóc Mikołajowi i stać się bohaterem swiat?
